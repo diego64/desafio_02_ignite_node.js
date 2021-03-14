@@ -10,6 +10,7 @@
   <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-projeto">Sobre o desafio</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-layout">Middlewares da aplicação</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-layout">Rodando a aplicação</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 </p>
 
 ## 📦 Tecnologias
@@ -58,3 +59,11 @@ Com todas as validações passando, o *todo* encontrado deve ser passado para o 
 ### findUserById
 
 Esse middleware possui um funcionamento semelhante ao middleware `checksExistsUserAccount` mas a busca pelo usuário deve ser feita através do **id** de um usuário passado por parâmetro na rota. Caso o usuário tenha sido encontrado, o mesmo deve ser repassado para dentro do `request.user` e a função next deve ser chamada.
+
+## 📦 Rodando a aplicação
+
+Após fazer o clone da aplicação, rode o comando `yarn install` ou `npm install` para fazer a isntalação de todas as depedencias da aplicação. 
+
+A aplicação está configurada para rodar na `https://localhost:3333`, utilize o insomnia, Postman ou outro programa que faça requisições a API para poder realizar as rotas.
+
+Utilize o comando `yarn test` para que os testes possam ser executados.
